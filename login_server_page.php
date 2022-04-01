@@ -9,6 +9,7 @@ $login_pasword=$_GET['login_pasword'];
 if($login_email==null||$login_pasword==null){
     $emailmsg="";
     $pasdmsg="";
+    $passwd="";
     
     if($login_email==null){
         $emailmsg="Email Empty";
