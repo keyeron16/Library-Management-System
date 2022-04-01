@@ -25,6 +25,10 @@ elseif($login_email!=null&&$login_pasword!=null){
     $obj->adminLogin($login_email,$login_pasword);
 
 }
+else
+{
+    echo "error occured";
+}
 
 
 
