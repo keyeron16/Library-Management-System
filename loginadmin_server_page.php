@@ -27,7 +27,7 @@ elseif($login_email!=null&&$login_pasword!=null){
 }
 else
 {
-    echo "error occured";
+    echo "Error occured";
 }
 
 
